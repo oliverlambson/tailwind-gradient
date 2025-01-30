@@ -1,5 +1,7 @@
 # tailwind-gradient bug reproduction
 
+> For https://github.com/tailwindlabs/tailwindcss/issues/16037
+
 ## Running the reproduction
 
 ```sh
