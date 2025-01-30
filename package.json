@@ -1,0 +1,27 @@
+{
+  "name": "tailwind-gradient",
+  "description": "tailwind gradient bug reproduction",
+  "engines": {
+    "npm": ">=10.0.0 <11.0.0",
+    "node": ">=22.0.0 <23.0.0"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.9",
+    "@tailwindcss/postcss": "^4.0.1",
+    "@tailwindcss/typography": "^0.5.15",
+    "postcss": "^8.5.1",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^4.0.1"
+  },
+  "scripts": {
+    "build:css": "postcss styles.in.css -o styles.css"
+  },
+  "postcss": {
+    "plugins": {
+      "@tailwindcss/postcss": {
+        "optimize": true,
+        "minify": false
+      }
+    }
+  }
+}
