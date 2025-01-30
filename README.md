@@ -30,3 +30,9 @@ Inside the generated styles.css, grep for `from-blue-500` (I've formatted below 
 - var(--tw-gradient-position,)
 + var(--tw-gradient-position),
 ```
+
+## Screenshots
+
+| As-generated css | Manually-modified css |
+| --- | --- |
+| ![](./as-generated.png) | ![](./modified.png)  |
